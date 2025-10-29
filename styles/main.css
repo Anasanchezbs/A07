@@ -14,10 +14,7 @@ body {
     width: 80%;
     margin: auto;
     border: 2px solid var(--accent-color);
-}
-a:hover, a:focus{
-	font-style: italic;
-	color: var(--accent-color);
+
 }
 h1, h2, h3, p ,ul {
     padding-top: 0.5em;
@@ -30,16 +27,9 @@ a:hover, a:focus{
     font-style: italic;
     color: var(--accent-color);
 }
-h1 {
-	font-size: 150%;
-}
-h2 {
-	font-size: 130%;
-	color: var(--accent-color);
-}
-h3 {
-	font-size: 105%;
-}
+h1 {font-size: 150%;}
+h2 {font-size: 130%; color: var(--accent-color); }
+h3 {font-size: 105%; }
 
 /* the styles for the header */
 header {
